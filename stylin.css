@@ -19,6 +19,17 @@
 	padding:0; 
 }
 
+#nav li{
+	
+	width:auto;
+	padding-left:20px;
+	padding-right:0px;
+	float:right;
+	display:block;
+	margin:0px;
+	
+}
+
 #projList li {
 	list-style-type: none;
 }
