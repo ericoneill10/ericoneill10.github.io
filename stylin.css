@@ -5,3 +5,8 @@
 #tabs li {
 	list-style-type: none;
 }
+
+.projectThumbnailImg{
+	height: 42;
+	width: 42;
+}
