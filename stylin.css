@@ -7,6 +7,12 @@
 	
 }
 
+#name{
+	position:relative;
+	font-size: 25px;
+	
+}
+
 #nav{
 	position:absolute;
 	list-style-type: none;
