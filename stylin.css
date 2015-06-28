@@ -1,3 +1,9 @@
+a{
+	color:#000;
+	text-decoration:none;
+	font-size:14px;
+}
+
 #header{
 	position:relative;
 	height: 30px;
@@ -10,7 +16,7 @@
 #name{
 	position:relative;
 	font-size: 25px;
-	
+
 }
 
 #nav{
