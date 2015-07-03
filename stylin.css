@@ -115,7 +115,12 @@ div.projectItem img{
 	width: 110px;
 	height: 90px;
 }
-
+div.projectDesc{
+	text-align: center;
+	font-weight: normal;
+	width: 120px;
+	margin: 5px;
+}
 .projectItem:hover{
 	background-color: #AAAAAA;
 }
