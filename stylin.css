@@ -88,6 +88,11 @@ a:hover{
 	width:333px; 
 	margin: 50px 25px 5px 5px;
 }
+
+#leftImg{
+	width:auto;
+	height:auto;
+}
 /*project.html*/
 #projList li {
 	list-style-type: none;
