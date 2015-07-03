@@ -105,12 +105,14 @@ a:hover{
 .projectItem{
 	position: relative;
 	height: 60;
+	line-height: 60;
 	width: 100%;
 	float: left;
-	text-align: center;
 
 }
-
+.projectItem:hover{
+	background-origin: #AAAAAA;
+}
 .projectThumbnailImg{
 	max-height: 100%;
 }
