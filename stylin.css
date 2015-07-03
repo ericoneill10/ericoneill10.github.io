@@ -103,7 +103,10 @@ a:hover{
 }
 
 .projectItem{
-
+	position: relative;
+	height: 60;
+	width: 100%;
+	float: left;
 }
 
 .projectThumbnailImg{
