@@ -90,8 +90,8 @@ a:hover{
 }
 
 #leftImg{
-	width:auto;
-	height:auto;
+	max-width:100%;
+
 }
 /*project.html*/
 #projList li {
