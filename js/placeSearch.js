@@ -4,6 +4,7 @@ function initialize() {
     zoom: 15
   });
 
+  /*
   var request = {
     placeId: 'ChIJN1t_tDeuEmsRUsoyG83frY4'
   };
@@ -23,6 +24,7 @@ function initialize() {
       });
     }
   });
+  */
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
