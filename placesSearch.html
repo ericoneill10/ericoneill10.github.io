@@ -33,17 +33,22 @@ function initialize() {
   infowindow = new google.maps.InfoWindow();
   var service = new google.maps.places.PlacesService(map);
   service.nearbySearch(request, callback);
-  window.open("data:text/json;charset=utf-8," + escape("Ur String Object goes here"));
 }
 
 function callback(results, status) {
+  var returnStr = "";
   if (status == google.maps.places.PlacesServiceStatus.OK) {
   	//console.log(results);
     for (var i = 0; i < results.length; i++) {
-      console.log(JSON.stringify(results[i]));
+      var location = JSON.stringify(results[i]);
+      console.log(location);
+      returnStr = returnStr.concat(location);
       createMarker(results[i]);
+
     }
   }
+  window.open("data:text/json;charset=utf-8," + escape(returnStr));
+
 }
 
 function createMarker(place) {
