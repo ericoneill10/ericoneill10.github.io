@@ -46,12 +46,14 @@ function callback(results, status) {
           delete currentLoc[j];
         }
       }
+      /*
       delete results[i].icon;
       delete results[i].id;
       delete results[i].place_id;
       delete results[i].reference;
       delete results[i].scope;
       delete results[i].vicinity;
+      */
       var location = JSON.stringify(results[i]);
       console.log(location);
       returnStr = returnStr.concat(location);
