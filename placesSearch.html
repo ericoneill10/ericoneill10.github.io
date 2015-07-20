@@ -41,9 +41,9 @@ function callback(results, status) {
   	//console.log(results);
     for (var i = 0; i < results.length; i++) {
       var currentLoc = results[i];
-      for(var j = 0; j<currentLoc.length; j++){
-        if(!(currentLoc[j] == "geometry" || currentLoc[j] == "name" || currentLoc[j] == "types" || currentLoc[j] == "opening_hours")){
-          delete currentLoc[j];
+      for(var key in currentLoc){
+        if(!(key == "geometry" || key == "name" || key == "types" || key == "opening_hours")){
+          delete currentLoc[key];
         }
       }
       /*
