@@ -15,8 +15,12 @@ a:hover{
 
 
 .container{
-	width: 960px;
-	align: center;
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
 }
 .main{
 	text-align: left;
@@ -73,7 +77,7 @@ a:hover{
 #content{
 	margin: 20px 20px 20px 20px;
 	width: auto;
-	
+
 }
 
 #bio{
