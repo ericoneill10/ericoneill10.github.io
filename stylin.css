@@ -14,7 +14,7 @@ a:hover{
 }
 
 
-.container{
+#container{
   position: relative;
   width: 100%;
   max-width: 960px;
@@ -22,7 +22,7 @@ a:hover{
   padding: 0 20px;
   box-sizing: border-box; 
 }
-.main{
+#main{
 	text-align: left;
 	margin:  0 auto;
 	width: 800px;
