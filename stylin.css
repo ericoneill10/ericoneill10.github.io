@@ -15,12 +15,9 @@ a:hover{
 
 
 #container{
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; 
+	margin: auto;
+ 	height:auto;
+ 	width: 800px; 
 }
 #main{
 	text-align: left;
