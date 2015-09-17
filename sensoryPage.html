@@ -15,10 +15,10 @@
 		</div>
 		<h1>Sensory Tryptich Interactiive Watch</h1>
 		<p>
-			<b>Project Idea</p></br>
+			<b>Project Idea</b></br>
 				The idea of this project is to study how children interact with electronics outside of the ever present cell phones and laptops. This facet of the project involves creating a wearable device that users can program locations of interest in, which the device then helps them navigate to.
 			</br>
-			<b>Team Members:</p> Kevin Tian
+			<b>Team Members:</b> Kevin Tian
 			</br>
 			<b>My Responsibilities</b></br>
 				I was responsible for designing and implementing the electrial and software systems for this project. I also helped choose which components we would use based on specifications, size and price. 
@@ -27,7 +27,7 @@
 		<iframe width="420" height="315" src="https://www.youtube.com/embed/yBbRY5j5ZzE" frameborder="0" allowfullscreen></iframe>
 		</p>
 		<hr>
-		Below is a breadbord mockup of all of the working components.
+		Below is a breadboard mockup of all of the working components.
 		<img src = "img/breadboardON.JPG" id = "contentImg">
 		This was an interesting project because it required integrating many devices in a small package. As such, we chose the RFduino as our microcontroller, which has a relatively powerful Cortex-M0 processor in a convenient small package, as well as the possibility of Bluetooth communication. The issue, however, was the relatively small amount of pins available, so we used a SC16IS750 I2C to UART converter and GPIO port expander, which I wrote a simple <a href = "https://github.com/ericoneill10/SC16IS750">library</a> for. This solved our pin and communication issue (and at the same time made communications to certain devices a little more complicated).
 
