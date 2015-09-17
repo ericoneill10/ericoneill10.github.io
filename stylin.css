@@ -9,6 +9,10 @@ a{
 	font-size:14px;
 }
 
+a:link{
+	color:#0F00FF;
+}
+
 a:hover{
 	color:#0020AF;
 }
