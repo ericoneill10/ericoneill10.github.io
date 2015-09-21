@@ -28,8 +28,23 @@
 		</p>
 		<hr>
 		Below is a breadboard mockup of all of the working components.
-		<img src = "img/breadboardON.JPG" id = "contentImg">
+		<img src = "img/breadboardOffAnnotated.JPG" id = "contentImg">
+		The components int the annotated breadboard above are:
+		<ul>
+			<li> Blue: SC16IS770 I2C/SPI to UART converter and GPIO expander</li>
+			<li> Red: RFduino microcontroller</li>
+			<li> Green: Sharp Memory LCD Display</li>
+			<li> Yellow: BNO055 9-axis absolute orientation sensor </li>
+			<li> Purple: DRV2605L Haptic Motor Driver </li>
+			<li> Orange: MTK3339 GPS </li>
+		</ul>
+		</br>
 		This was an interesting project because it required integrating many devices in a small package. As such, we chose the RFduino as our microcontroller, which has a relatively powerful Cortex-M0 processor in a convenient small package, as well as the possibility of Bluetooth communication. The issue, however, was the relatively small amount of pins available, so we used a SC16IS750 I2C to UART converter and GPIO port expander, which I wrote a simple <a href = "https://github.com/ericoneill10/SC16IS750">library</a> for. This solved our pin and communication issue (and at the same time made communications to certain devices a little more complicated).
-
+		</br>
+		I've created a simple <a href = "https://github.com/ericoneill10/placeSearch">web app</a> to help search for locations of interest to load onto the watch.
+		</br>
+		I'm currently working on a test PCB for this project. Below is the schematic containing all components.
+		<img src = "img/sensoryTriptychSchematic.JPG" id = "contentImg">
+		The first iteration will be a large test PCB created on the Berkeley Invention Lab's in house LPKF PCB drill. Further iterations will shrink the size of the PCB to make it more suitable for a wearable device.
 </body>
 </html>
